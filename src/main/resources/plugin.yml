@@ -1,0 +1,72 @@
+name: HyperiumPrisonExtras
+version: '${project.version}'
+main: us.hyperiummc.hyperiumprisonextras.HyperiumPrisonExtras
+api-version: 1.17
+authors: [ ItzRade ]
+description: Extra features for Hyperium Prison
+website: http://discord.hyperiummc.us
+depend: [Vault, PlaceholderAPI, EZBlocks, PrisonRanksX]
+commands:
+  hpereload:
+    description: Reload config.
+    usage: /<command>
+  hpetest:
+    description: Test objective requirement value.
+    usage: /<command>
+  event:
+    description: Check event standings.
+    usage: /<command>
+  blocktop:
+    description: Check top miners.
+    usage: /<command>
+    aliases:
+      - blockstop
+      - btop
+  kills:
+    description: Check your kills.
+    usage: /<command>
+  killtop:
+    description: Check top killers.
+    usage: /<command>
+    aliases:
+      - killstop
+      - ktop
+  tokentop:
+    description: Check top token balances.
+    usage: /<command>
+    aliases:
+      - ttop
+      - tokenstop
+  prestigetop:
+    description: Check top token balances.
+    usage: /<command>
+    aliases:
+      - ptop
+      - prestigestop
+  randomtagt1:
+    descriptin: Give a random tag of tier 1.
+    usage: /<command>
+  randomtagt2:
+    descriptin: Give a random tag of tier 2.
+    usage: /<command>
+  randomtagt3:
+    descriptin: Give a random tag of tier 3.
+    usage: /<command>
+  randomtagt4:
+    descriptin: Give a random tag of tier 4.
+    usage: /<command>
+  randomtagt5:
+    descriptin: Give a random tag of tier 5.
+    usage: /<command>
+  keyall:
+    descriptin: Optimized keyall.
+    usage: /<command> <key> <amount>
+  alert:
+    descriptin: Send broadcasts with titles.
+    usage: /<command> <message>
+  rename:
+    descriptin: Rename PvP items.
+    usage: /<command> <name>
+  hyperiumseasonreset:
+    descriptin: Reset season.
+    usage: /<command>

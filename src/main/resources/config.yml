@@ -1,0 +1,10 @@
+events:
+  blocks-mined:
+    required: 100
+    rewards:
+      first:
+        - "crate givephys %player% Galactic 3"
+      second:
+        - "crate givephys %player% Galactic 2"
+      third:
+        - "crate givephys %player% Galactic 1"
